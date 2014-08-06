@@ -66,4 +66,14 @@ class FactoryManager extends Manager {
 		return $this->app['basset.log'];
 	}
 
+	/**
+	 * Get the default driver name.
+	 *
+	 * @return string
+	 */
+	public function getDefaultDriver()
+	{
+		// TODO: Implement getDefaultDriver() method.
+	}
+
 }
